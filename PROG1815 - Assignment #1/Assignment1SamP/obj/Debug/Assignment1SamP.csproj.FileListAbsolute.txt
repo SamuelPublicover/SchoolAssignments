@@ -1,0 +1,10 @@
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\bin\Debug\Assignment1SamP.exe.config
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\bin\Debug\Assignment1SamP.exe
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\bin\Debug\Assignment1SamP.pdb
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\obj\Debug\Assignment1SamP.csprojAssemblyReference.cache
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\obj\Debug\Assignment1SamP.Form1.resources
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\obj\Debug\Assignment1SamP.Properties.Resources.resources
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\obj\Debug\Assignment1SamP.csproj.GenerateResource.cache
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\obj\Debug\Assignment1SamP.csproj.CoreCompileInputs.cache
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\obj\Debug\Assignment1SamP.exe
+C:\Users\sampu\OneDrive\Desktop\PROG1815\Assignments\Assignment1SamP\Assignment1SamP\obj\Debug\Assignment1SamP.pdb
