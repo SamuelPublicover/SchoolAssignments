@@ -1,0 +1,34 @@
+main {
+	height: 850px;
+	text-align: center;
+}
+audio {
+	padding-bottom: 20px;
+}
+video {
+	padding-bottom: 20px;
+}
+iframe {
+	padding-bottom: 20px;
+}
+#sidebarA {
+	height: 850px;
+}
+#sidebarA img {
+	padding-left: 20px;
+}
+#sidebarA ul img {
+	padding-bottom: 30px;
+}
+#sidebarA ul li{
+	list-style-type: none;
+}
+#sidebarB {
+	height: 850px;
+}
+ul li {
+	text-align: center;
+}
+ul li img {
+	text-align: center;
+}

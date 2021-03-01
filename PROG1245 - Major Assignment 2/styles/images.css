@@ -1,0 +1,38 @@
+figcaption {
+font-style: italic;
+font-variant: small-caps;
+}
+figure, figcaption {
+display: block;
+font-variant: small-caps;
+text-align: center;
+}
+#image1 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+#image2 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+#image3 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+#image4 {
+	text-align: center;
+	padding-bottom: 10px;
+}
+#columnLeft {
+	float: left;
+}
+#columnRight {
+	float: right;
+}
+#sidebarB {
+	height: 416px;
+}
+#sidebarA {
+	height: 416px;
+}
+	

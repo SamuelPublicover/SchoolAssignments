@@ -1,0 +1,38 @@
+textarea {
+	height: 7em;
+	width: 30em;
+	font-family: Arial, Helvetica, sans-serif; 
+}
+
+#sidebarB {
+	height: 500px;
+}
+#sidebarA {
+	height: 500px;
+}
+#submit {
+	width: 140px;
+	height: 40px;
+	color: black;
+	background-color: teal;
+	box-shadow: 2px 2px blue;
+}
+.button {
+	padding-left: 220px;
+	padding-top: 7px;
+}
+#review_us {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+.review_submit {
+	padding-left: 9px;
+	padding-top: 20px;
+}
+#sidebarA ul {
+	list-style-type: none;
+	padding-left: 3px;
+}
+textarea {
+	background-color: white;
+}
