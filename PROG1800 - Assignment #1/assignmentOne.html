@@ -1,0 +1,190 @@
+<html>
+<head>
+    <title>Sam's Quiz</title>
+    <!--CSS for the web page-->
+    <style>
+        body {
+            max-width: 600px;
+            margin: auto;
+            margin-top: 50px;
+            font-family: Verdana, Arial, Helvetica, sans-serif;
+        }
+        header {
+            width: 600px;
+            background-image: -webkit-linear-gradient(45deg, white 0%, red 75%, black 100%);
+            background-image: -moz-linear-gradient(45deg, white 0%, red 75%, black 100%);
+            background-image: -o-linear-gradient(45deg, white 0%, red 75%, black 100%);
+            background-image: linear-gradient(45deg, white 0%, red 75%, black 100%);
+            padding: 15px;
+            border: 2px solid black;
+            text-align: center;
+        }
+        main {
+            width: 600px;
+            padding: 15px;
+            border-left: 2px solid black;
+            border-right: 2px solid black;
+        }
+        footer {
+            width: 600px;
+            clear: both;
+            border: 2px solid black;
+            padding: 15px;
+            background-color: #fa8282;
+            text-align: center;
+        } 
+
+    </style>
+    <script>
+        //variables
+        var score = 0;
+        var questionOneAnswered = false;
+        var questionTwoAnswered = false;
+        var questionThreeAnswered = false;
+        var questionFourAnswered = false;
+        var questionFiveAnswered = false;
+        
+        //Question One
+        function questionOne(){
+            if (!questionOneAnswered) {
+                let result = confirm('True or false, Earth is the 4th planet from the sun');
+                if (result) {
+                    document.getElementById('result1').innerHTML = "That is incorrect";
+                    document.getElementById('result1').style.color = "Red";
+                    questionOneAnswered = true;
+                }
+                else {
+                    document.getElementById('result1').innerHTML = "That is correct";
+                    document.getElementById('result1').style.color = "Green";
+                    score = score + 1;
+                    document.getElementById('currentScore').innerHTML = "Your current score is: " + score;
+                    questionOneAnswered = true;
+                }
+            }
+        }
+        //Question Two
+        function questionTwo() {
+            if (!questionTwoAnswered) {
+                let result = prompt("How many planets are in our solar system", "");
+                //If the entry wasn't a number...
+                if (isNaN(result)) {
+                    var answerIsANumber = true;
+                    while (answerIsANumber) {
+                        let result = prompt("ERROR: Please enter a number. How many planets are in our solar system", "");
+                        if (!isNaN(result)) {
+                            answerIsANumber = false;
+                        }
+                    }
+                }
+                if (result == 8) {
+                    document.getElementById('result2').innerHTML = "That is correct";
+                    document.getElementById('result2').style.color = "Green";
+                    score = score + 1;
+                    document.getElementById('currentScore').innerHTML = "Your current score is: " + score;
+                    questionTwoAnswered = true;
+                }
+                else {
+                    document.getElementById('result2').innerHTML = "That is incorrect";
+                    document.getElementById('result2').style.color = "Red";
+                    questionTwoAnswered = true;
+                }
+            }
+        }
+        //Question Three
+        function questionThree() {
+            if (!questionThreeAnswered) {
+                let result = prompt("What planet in our solar system starts with J?", "");
+                //convert to lower case so user doesn't get it wrong for being capatalized
+                let resultLower = result.toLowerCase();
+                if (resultLower == "jupiter") {
+                    document.getElementById('result3').innerHTML = "That is correct";
+                    document.getElementById('result3').style.color = "Green";
+                    score = score + 1;
+                    document.getElementById('currentScore').innerHTML = "Your current score is: " + score;
+                    questionThreeAnswered = true;
+                }
+                else {
+                    document.getElementById('result3').innerHTML = "That is incorrect";
+                    document.getElementById('result3').style.color = "Red";
+                    questionThreeAnswered = true;
+                }
+            }
+        }
+
+        //Question Four
+        function questionFour() {
+            if (!questionFourAnswered) {
+                let result = confirm('True or false, Pluto is not longer considered a planet in our solar system');
+
+                if (result) {
+                    document.getElementById('result4').innerHTML = "That is correct";
+                    document.getElementById('result4').style.color = "Green";
+                    score = score + 1;
+                    document.getElementById('currentScore').innerHTML = "Your current score is: " + score;
+                    questionFourAnswered = true;
+                }
+                else {
+                    document.getElementById('result4').innerHTML = "That is incorrect";
+                    document.getElementById('result4').style.color = "Red";
+                    questionFourAnswered = true;
+                }
+            }
+        }
+        //Question Five
+        function questionFive() {
+            if (!questionFiveAnswered) {
+                let result = confirm('True or false, Neptune is one of 5 ice giants in our solar system');
+
+                if (result) {
+                    document.getElementById('result5').innerHTML = "That is incorrect";
+                    document.getElementById('result5').style.color = "Red";
+                    questionFiveAnswered = true;
+                }
+                else {
+                    document.getElementById('result5').innerHTML = "That is correct";
+                    document.getElementById('result5').style.color = "Green";
+                    score = score + 1;
+                    document.getElementById('currentScore').innerHTML = "Your current score is: " + score;
+                    questionFiveAnswered = true;
+                }
+            }
+        }
+
+    </script>
+    <style>
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Sam's Quiz</h1>
+    </header>
+    <main>
+        <h3>For any true or false questions, select "OK" for true, and "Cancel" for false</h3>
+
+        <button id="questionOne" type="button" onclick="questionOne()">Question 1</button>
+        <div id="result1"></div>
+        <br />
+
+        <button id="questionTwo" type="button" onclick="questionTwo()">Question 2</button>
+        <div id="result2"></div>
+        <br />
+
+        <button id="questionThree" type="button" onclick="questionThree()">Question 3</button>
+        <div id="result3"></div>
+        <br />
+
+        <button id="questionFour" type="button" onclick="questionFour()">Question 4</button>
+        <div id="result4"></div>
+        <br />
+
+        <button id="questionFive" type="button" onclick="questionFive()">Question 5</button>
+        <div id="result5"></div>
+        <br />
+    </main>
+    <footer>
+        <h2 id="currentScore">Your current score is: 0</h2>
+    </footer>
+</body>
+</html>
