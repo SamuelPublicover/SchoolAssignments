@@ -1,0 +1,7 @@
+C:\Users\sampu\OneDrive\Desktop\Stoga\PROG1781\assignments\A4SPHCCK\A4SPHCCK\obj\Debug\A4SPHCCK.csprojAssemblyReference.cache
+C:\Users\sampu\OneDrive\Desktop\Stoga\PROG1781\assignments\A4SPHCCK\A4SPHCCK\obj\Debug\A4SPHCCK.csproj.CoreCompileInputs.cache
+C:\Users\sampu\OneDrive\Desktop\Stoga\PROG1781\assignments\A4SPHCCK\A4SPHCCK\bin\Debug\A4SPHCCK.exe.config
+C:\Users\sampu\OneDrive\Desktop\Stoga\PROG1781\assignments\A4SPHCCK\A4SPHCCK\bin\Debug\A4SPHCCK.exe
+C:\Users\sampu\OneDrive\Desktop\Stoga\PROG1781\assignments\A4SPHCCK\A4SPHCCK\bin\Debug\A4SPHCCK.pdb
+C:\Users\sampu\OneDrive\Desktop\Stoga\PROG1781\assignments\A4SPHCCK\A4SPHCCK\obj\Debug\A4SPHCCK.exe
+C:\Users\sampu\OneDrive\Desktop\Stoga\PROG1781\assignments\A4SPHCCK\A4SPHCCK\obj\Debug\A4SPHCCK.pdb
